@@ -191,12 +191,61 @@ header {
   }
 }
 
-/*--iTalent--*/
-#italent {
-  margin-top: 15px;
-  margin-left: 15px;
+/*--PROJECTS--*/
+#projects {
+  margin: 15px 15px 0 15px;
   color: gray;
 
+
+  h2 {
+    font-size: 1.5em;
+    color: $turq;
+    margin-top: 5px;
+  }
+
+  h3 {
+    font-size: 1.4em;
+    color: $green;
+    margin-top: 5px;
+  }
+
+  h4 {
+    color: gray;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+    &+p {
+      padding-top: 0 !important;
+    }
+  }
+
+  section {
+    margin-bottom: 20px;
+    margin-left: 15px;
+
+    p {
+      padding: 15px 0;
+      font-size: 1.2em;
+      line-height: 150%;
+    }
+
+    img {
+      height: 250px;
+      margin: 0 auto;
+    }
+
+    div {
+      margin-right: 20px;
+    }
+  }
+
+}
+
+/*--ITALENT--*/
+#italent {
+  margin: 15px 15px 0 15px;
+  color: gray;
 
   h2 {
     font-size: 1.5em;

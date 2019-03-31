@@ -188,10 +188,58 @@ header h1 {
   font-size: 0.8em;
 }
 
-/*--iTalent--*/
-#italent {
-  margin-top: 15px;
+/*--PROJECTS--*/
+#projects {
+  margin: 15px 15px 0 15px;
+  color: gray;
+}
+
+#projects h2 {
+  font-size: 1.5em;
+  color: #2ab5be;
+  margin-top: 5px;
+}
+
+#projects h3 {
+  font-size: 1.4em;
+  color: #3dbd3d;
+  margin-top: 5px;
+}
+
+#projects h4 {
+  color: gray;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#projects h4 + p {
+  padding-top: 0 !important;
+}
+
+#projects section {
+  margin-bottom: 20px;
   margin-left: 15px;
+}
+
+#projects section p {
+  padding: 15px 0;
+  font-size: 1.2em;
+  line-height: 150%;
+}
+
+#projects section img {
+  height: 250px;
+  margin: 0 auto;
+}
+
+#projects section div {
+  margin-right: 20px;
+}
+
+/*--ITALENT--*/
+#italent {
+  margin: 15px 15px 0 15px;
   color: gray;
 }
 
