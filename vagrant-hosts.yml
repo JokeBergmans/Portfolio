@@ -1,0 +1,9 @@
+# vagrant_hosts.yml
+---
+- name: webserver
+  ip: 192.168.69.69
+  # box: centos/7
+  box: bento/centos-7.5
+  gui: false
+  memory: 1024
+  cpus: 1
